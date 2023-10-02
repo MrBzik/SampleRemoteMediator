@@ -1,17 +1,15 @@
 package com.sampleapp.sampleremotemediator.di
 
 import android.content.Context
-import android.content.SharedPreferences
 import androidx.room.Room
 import com.sampleapp.sampleremotemediator.data.local.MessagesDB
 import com.sampleapp.sampleremotemediator.data.remote.MessageService
-import com.sampleapp.sampleremotemediator.data.remote.dto.FakeMessageService
+import com.sampleapp.sampleremotemediator.data.remote.FakeMessageService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import javax.inject.Named
 import javax.inject.Singleton
 
 @Module

@@ -1,7 +1,6 @@
-package com.sampleapp.sampleremotemediator.data.remote.dto
+package com.sampleapp.sampleremotemediator.data.remote
 
-import android.util.Log
-import com.sampleapp.sampleremotemediator.data.remote.MessageService
+import com.sampleapp.sampleremotemediator.data.remote.dto.MessageDto
 import com.sampleapp.sampleremotemediator.utils.Constants.PAGE_SIZE
 import kotlinx.coroutines.delay
 
